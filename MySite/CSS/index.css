@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: #000000;
+    color: #fff;
+}
+
+article {
+    text-align: center;
+    background-color: white;
+    color: #000000;
+    margin: 3rem;
+}
+
+div {
+    width: 100%;
+}
+div.col {
+    float: left;
+    width: 50%;
+    padding-left: 8vh;
+    padding-right: 2vh;
+    align-items: center;
+}
+
+div.col1 {
+    float: left;
+    width: 50%;
+    padding-left: 2vh;
+    padding-right: 8vh;
+    align-items: center;
+}
+
+.price-box {
+    background-color: #000000;
+    color: #ffffff;
+    list-style-type: none;
+    letter-spacing: 0.1rem;
+    border: 2px solid #ffffff;
+}
+
+li {
+    color: #ffffff;
+    font-size: 1.5rem;
+    border-bottom: 2px solid white;
+    font-weight: 300;
+}
+
+li.tittle {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.4rem;
+}
+
+.price-box li {
+    margin-top: 1rem;
+    padding : 20px;
+    border-bottom: 20px solid #000000;
+    text-align: center;
+}
+
+.price-box a.btn {
+    background-color: #000000;
+    border: 2px solid white;
+    border-radius: 1rem;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.1rem;
+}

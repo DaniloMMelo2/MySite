@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 1;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+body {
+    background-color: rgb(232, 228, 229);
+}
+
+header {
+    text-align: center;
+    letter-spacing: 0.1rem;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    height: 10vh;
+    background-color: black;
+    align-items: center;
+    border-top: 3px solid rgb(255, 10, 10);
+    border-bottom: 3px solid rgb(255, 10, 10);
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(255, 10, 10);
+}
+
+textarea {
+    background-color: rgb(232, 228, 229);
+}
+
+input {
+    background-color: rgb(232, 228, 229);
+}
+fieldset {
+    margin-left: 16px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    color: rgb(0, 0, 0);
+}
+
+main {
+    margin-left: 16px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    text-align: center;
+    text-decoration: overline rgb(255, 0, 0);
+    
+}
+
+input.Botao {
+    background-color: rgb(232, 228, 229);
+    margin-left: 24px;
+    margin-bottom: 16px;
+    color: red;
+   
+}
